@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-29T13:02:37 CST" name="Default suite" finished-at="2021-01-29T13:02:40 CST" duration-ms="3714">
+    <groups>
+    </groups>
+    <test started-at="2021-01-29T13:02:37 CST" name="Default test" finished-at="2021-01-29T13:02:40 CST" duration-ms="3714">
+      <class name="Interactions">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Interactions@5f683daf]" started-at="2021-01-29T13:02:37 CST" name="openBrowser" finished-at="2021-01-29T13:02:40 CST" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="drag()[pri:0, instance:Interactions@5f683daf]" started-at="2021-01-29T13:02:40 CST" name="drag" finished-at="2021-01-29T13:02:40 CST" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drag -->
+      </class> <!-- Interactions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
