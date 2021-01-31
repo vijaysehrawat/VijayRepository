@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-28T18:13:21 CST" name="Suite" finished-at="2021-01-28T18:13:33 CST" duration-ms="12208">
+    <groups>
+    </groups>
+    <test started-at="2021-01-28T18:13:21 CST" name="Test" finished-at="2021-01-28T18:13:33 CST" duration-ms="12208">
+      <class name="project2.Contactus">
+        <test-method is-config="true" signature="contactuslink()[pri:0, instance:project2.Contactus@d21a74c]" started-at="2021-01-28T18:13:28 CST" name="contactuslink" finished-at="2021-01-28T18:13:28 CST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactuslink -->
+        <test-method signature="contactScreen()[pri:1, instance:project2.Contactus@d21a74c]" started-at="2021-01-28T18:13:28 CST" name="contactScreen" finished-at="2021-01-28T18:13:28 CST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactScreen -->
+        <test-method signature="sendMessage()[pri:2, instance:project2.Contactus@d21a74c]" started-at="2021-01-28T18:13:28 CST" name="sendMessage" finished-at="2021-01-28T18:13:33 CST" duration-ms="4781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage -->
+      </class> <!-- project2.Contactus -->
+      <class name="project2.Signup">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:project2.Signup@7a675056]" started-at="2021-01-28T18:13:21 CST" name="openbrowser" finished-at="2021-01-28T18:13:26 CST" duration-ms="5053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="clickSignInLink()[pri:0, instance:project2.Signup@7a675056]" started-at="2021-01-28T18:13:26 CST" name="clickSignInLink" finished-at="2021-01-28T18:13:27 CST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignInLink -->
+        <test-method signature="verifysignUpPageLoad()[pri:1, instance:project2.Signup@7a675056]" started-at="2021-01-28T18:13:27 CST" name="verifysignUpPageLoad" finished-at="2021-01-28T18:13:27 CST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysignUpPageLoad -->
+        <test-method signature="verifyIncorrectEmail()[pri:2, instance:project2.Signup@7a675056]" started-at="2021-01-28T18:13:27 CST" name="verifyIncorrectEmail" finished-at="2021-01-28T18:13:28 CST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmail -->
+      </class> <!-- project2.Signup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
