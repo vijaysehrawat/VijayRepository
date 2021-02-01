@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class widgets extends Testbase {
-    @Test(priority=3)
+    @Test(priority=1)
 	void accordian() {
 		driver.findElement(By.xpath("//*[@id=\"sidebar\"]/aside[2]/ul/li[1]/a")).click();
 		JavascriptExecutor js = (JavascriptExecutor) driver;  
@@ -46,7 +46,7 @@ public class widgets extends Testbase {
 		 }
 		 driver.switchTo().parentFrame();
     }
-		 @Test(priority=1)
+		 @Test(priority=3)
 		 void checkboxradio() {
 			 
 			 driver.findElement(By.xpath("//*[@id=\"sidebar\"]/aside[2]/ul/li[4]/a")).click();
@@ -72,9 +72,10 @@ public class widgets extends Testbase {
 		 }
 		@Test(priority=4)
      void selectmenu() throws InterruptedException {
+			
     	 driver.findElement(By.xpath("//*[@id='sidebar']/aside[2]/ul/li[10]/a")).click();
     	 JavascriptExecutor js = (JavascriptExecutor) driver;  
-		 js.executeScript("window.scrollBy(0,400)");
+		 js.executeScript("window.scrollBy(0,600)");
     	 driver.switchTo().frame(0);
     	 ////Select sel = new Select(driver.findElement(By.xpath("//*[@id='speed']")));
     	//sel.selectByIndex(2);
@@ -114,7 +115,7 @@ public class widgets extends Testbase {
 		 }
 		 driver.switchTo().parentFrame();
      }
-		@Test
+		@Test(priority=5)
 		void controlgroup() {
 			driver.findElement(By.xpath("//*[@id='sidebar']/aside[2]/ul/li[5]/a")).click();
 			JavascriptExecutor js =  (JavascriptExecutor) driver;
@@ -132,7 +133,6 @@ public class widgets extends Testbase {
 		 
 		for(int i=1;i<j;i++) {
 			 
-			
 			String xyz= def.get(i).getText();
 			System.out.println(xyz);
 			if (xyz.equals("Luxury")) {
@@ -142,21 +142,8 @@ public class widgets extends Testbase {
 			
 			
 		 }
-		
-		
-		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+
+		driver.switchTo().parentFrame();	
 			
 		}
 }
